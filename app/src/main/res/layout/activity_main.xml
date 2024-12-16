@@ -1,0 +1,61 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#192a56"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="Calculator App"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textColor="#FAFAFA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+ <androidx.appcompat.widget.AppCompatButton
+     android:text="Add"
+     android:layout_marginTop="10dp"
+     android:layout_marginLeft="10dp"
+     android:layout_marginRight="10dp"
+     android:background="#273c75"
+     android:textColor="#FAFAFA"
+     android:id="@+id/addbtn"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Sub"
+        android:background="#273c75"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#FAFAFA"
+        android:id="@+id/subbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Mult"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#273c75"
+        android:textColor="#FAFAFA"
+        android:id="@+id/multbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Div"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#273c75"
+        android:textColor="#FAFAFA"
+        android:id="@+id/divbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
